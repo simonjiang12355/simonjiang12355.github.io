@@ -1,0 +1,56 @@
+#text1{
+font-family: 'Titan One', cursive;
+font-size:60px;
+}
+
+.container1{
+display:flex;
+background-color:rgba(255,255,255,0.5);
+justify-content:center;
+align-items:center;
+}
+
+.container1 img{
+width:350px;
+height:350px;
+border-radius: 250px;
+margin-right:50px;
+}
+
+body{
+	background-image: url("picture folder/background3.jpg");
+	background-size: cover;
+}
+
+.container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+text-align:center;
+}
+
+.container img {
+width:700px;
+height:600px;
+margin:40px;
+border-radius: 50px;
+transition:all 1s;
+}
+
+.container img:hover{
+transform:scale(1.1);
+opacity:0.5;
+}
+
+.fronttext{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+font-size: 100px;
+}
+
+.fontpictures{
+position:relative;
+text-align:center;
+}
